@@ -24,6 +24,7 @@ export default function AdvancedFeedbackPage() {
   const [age, setAge] = useState<string>('')
   const [fitnessLevel, setFitnessLevel] = useState<string>('')
   const [loading, setLoading] = useState(false)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [analysis, setAnalysis] = useState<any>(null)
   const [error, setError] = useState<string>('')
 
